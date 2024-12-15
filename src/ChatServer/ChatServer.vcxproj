@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{214679cd-b980-40db-9da4-2327c8f3fae6}</ProjectGuid>
+    <ProjectGuid>{1541b5f9-4143-4aba-aa02-4023caa08755}</ProjectGuid>
     <RootNamespace>ChatServer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
