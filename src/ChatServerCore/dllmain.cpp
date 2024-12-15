@@ -1,12 +1,12 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
-#include "pch.h"
+#include <ChatServerCore/Pch.hpp>
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                     )
+BOOL APIENTRY DllMain(HMODULE hinstDLL,
+                      DWORD  fdwReason,
+                      LPVOID lpvReserved
+)
 {
-    switch (ul_reason_for_call)
+    switch (fdwReason)
     {
     case DLL_PROCESS_ATTACH:
     case DLL_THREAD_ATTACH:
@@ -16,4 +16,3 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
-
