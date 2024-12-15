@@ -1,4 +1,5 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
+// ChatServerCore/DllMain.cpp
+
 #include <ChatServerCore/Pch.hpp>
 
 BOOL APIENTRY DllMain(HMODULE hinstDLL,

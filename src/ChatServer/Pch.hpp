@@ -1,4 +1,4 @@
-// ChatServerCore/Pch.hpp
+// ChatServer/Pch.hpp
 
 #pragma once
 
