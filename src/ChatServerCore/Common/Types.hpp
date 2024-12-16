@@ -17,18 +17,15 @@ namespace ChatServerCore
 	using UInt32	= unsigned __int32;
 	using UInt64	= unsigned __int64;
 
-	// Size type
-	using Size		= size_t;
-
 	// Containers
-	template<typename T, Size Sz>
-	using Arr		= std::array<T, Sz>;
+	template<typename TData, size_t CSize>
+	using Arr		= std::array<TData, CSize>;
 	template<typename T>
 	using Vec		= std::vector<T>;
-	template<typename K, typename V>
-	using Map		= std::map<K, V>;
-	template<typename K, typename V>
-	using UMap		= std::unordered_map<K, V>;
+	template<typename TKey, typename TVal>
+	using Map		= std::map<TKey, TVal>;
+	template<typename Tkey, typename TVal>
+	using UMap		= std::unordered_map<Tkey, TVal>;
 	template<typename T>
 	using Set		= std::set<T>;
 	template<typename T>
