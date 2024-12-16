@@ -57,4 +57,3 @@
  *------------------------*/
 
 // Common
-#include <ChatServerCore/Common/Types.hpp>
