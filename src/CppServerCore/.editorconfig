@@ -6,7 +6,7 @@ root = true
 # C++ Server Core settings
 
 charset = utf-8-bom 
-indent_style = tab
+indent_style = space
 indent_size = 4
 
 # Visual C++ Code Style settings
