@@ -6,6 +6,9 @@
  *    C++ Standard    *
  *--------------------*/
 
+// Multi-purpose
+#include <cstdlib>
+
 // Language support
 #include <cstddef>
 
@@ -57,4 +60,5 @@
  *------------------------*/
 
 // Common
+#include <CppServerCore/Common/Macro.hpp>
 #include <CppServerCore/Common/ThreadLocalStorage.hpp>

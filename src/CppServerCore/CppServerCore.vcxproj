@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\Include.hpp" />
+    <ClInclude Include="Common\Macro.hpp" />
     <ClInclude Include="Common\ThreadLocalStorage.hpp" />
     <ClInclude Include="Pch.hpp" />
   </ItemGroup>

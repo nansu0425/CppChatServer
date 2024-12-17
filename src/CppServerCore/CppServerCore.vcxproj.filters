@@ -19,5 +19,8 @@
     <ClInclude Include="Common\ThreadLocalStorage.hpp">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="Common\Macro.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
