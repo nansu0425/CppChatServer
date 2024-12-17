@@ -23,7 +23,7 @@ namespace CppServerCore::Thread
     {
         auto lockGuard = std::lock_guard(_lock);
 
-        _threads.emplace_back([&callback]()
+        _threads.emplace_back([callback]()
                               {
                                   InitThreadLocalStorage();
                                   callback();
