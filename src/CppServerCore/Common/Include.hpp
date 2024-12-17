@@ -61,4 +61,5 @@
 
 // Common
 #include <CppServerCore/Common/Macro.hpp>
+#include <CppServerCore/Common/Global.hpp>
 #include <CppServerCore/Common/ThreadLocalStorage.hpp>

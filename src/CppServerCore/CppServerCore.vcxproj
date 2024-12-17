@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Common\Global.cpp" />
     <ClCompile Include="Common\ThreadLocalStorage.cpp" />
     <ClCompile Include="Pch.cpp">
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CppServerCore/Pch.hpp</PrecompiledHeaderFile>
@@ -32,6 +33,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common\Global.hpp" />
     <ClInclude Include="Common\Include.hpp" />
     <ClInclude Include="Common\Macro.hpp" />
     <ClInclude Include="Common\ThreadLocalStorage.hpp" />
