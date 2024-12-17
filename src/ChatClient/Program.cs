@@ -1,4 +1,4 @@
-namespace ChatClient
+﻿namespace ChatClient
 {
     internal static class Program
     {
