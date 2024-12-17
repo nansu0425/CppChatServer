@@ -4,6 +4,9 @@
     <Filter Include="Common">
       <UniqueIdentifier>{6930e132-d6c4-4c82-b4d6-2f3ad5136d88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{4411e6ca-1baf-4437-a140-8960a065d252}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pch.cpp" />
@@ -12,6 +15,9 @@
     </ClCompile>
     <ClCompile Include="Common\Global.cpp">
       <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ThreadManager.cpp">
+      <Filter>Thread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -27,6 +33,9 @@
     </ClInclude>
     <ClInclude Include="Common\Global.hpp">
       <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ThreadManager.hpp">
+      <Filter>Thread</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
