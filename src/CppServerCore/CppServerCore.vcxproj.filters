@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6930e132-d6c4-4c82-b4d6-2f3ad5136d88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.hpp" />
+    <ClInclude Include="Common\Include.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

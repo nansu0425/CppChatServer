@@ -1,4 +1,4 @@
-﻿// ChatServerCore/Common/CommonPch.hpp
+﻿// CppServerCore/Common/Include.hpp
 
 #pragma once
 
@@ -53,7 +53,7 @@
 #include <windows.h>
 
 /*------------------------*
- *    Chat Server Core    *
+ *    C++ Server Core    *
  *------------------------*/
 
 // Common
