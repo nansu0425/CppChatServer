@@ -7,10 +7,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="Common\ThreadLocalStorage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pch.hpp" />
     <ClInclude Include="Common\Include.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ThreadLocalStorage.hpp">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

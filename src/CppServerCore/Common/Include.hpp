@@ -57,3 +57,4 @@
  *------------------------*/
 
 // Common
+#include <CppServerCore/Common/ThreadLocalStorage.hpp>
